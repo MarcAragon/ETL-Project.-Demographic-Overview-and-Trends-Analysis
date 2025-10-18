@@ -1,0 +1,6 @@
+logs
+.env
+*.yaml
+plugins
+.venv
+Scripts
