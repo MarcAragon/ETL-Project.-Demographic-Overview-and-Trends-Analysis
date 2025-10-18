@@ -1,5 +1,6 @@
 from airflow.decorators import task
 import pandas as pd
+#CsvIndicators, InflationIndicator ATFMIndicator ContraceptiveIndicator MarriedIndicator SingleIndicator
 
 @task 
 def Transform(Data):
@@ -14,3 +15,4 @@ def Transform(Data):
         'Df1': Df1.to_json(),
         'Df2': Df2.to_json()
     }
+
