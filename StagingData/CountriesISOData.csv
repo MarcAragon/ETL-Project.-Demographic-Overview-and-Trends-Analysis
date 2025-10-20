@@ -1,0 +1,250 @@
+,ISO 3166 Name,ISO 3166-1 Aplha Code 3,ISO 3166-1 Numeric Code
+0,Afghanistan,AFG,4
+1,Åland Islands,ALA,248
+2,Albania,ALB,8
+3,Algeria,DZA,12
+4,American Samoa,ASM,16
+5,Andorra,AND,20
+6,Angola,AGO,24
+7,Anguilla,AIA,660
+8,Antarctica,ATA,10
+9,Antigua and Barbuda,ATG,28
+10,Argentina,ARG,32
+11,Armenia,ARM,51
+12,Aruba,ABW,533
+13,Australia,AUS,36
+14,Austria,AUT,40
+15,Azerbaijan,AZE,31
+16,Bahamas (the),BHS,44
+17,Bahrain,BHR,48
+18,Bangladesh,BGD,50
+19,Barbados,BRB,52
+20,Belarus,BLR,112
+21,Belgium,BEL,56
+22,Belize,BLZ,84
+23,Benin,BEN,204
+24,Bermuda,BMU,60
+25,Bhutan,BTN,64
+26,Bolivia (Plurinational State of),BOL,68
+27,Bonaire Sint Eustatius Saba,BES,535
+28,Bosnia and Herzegovina,BIH,70
+29,Botswana,BWA,72
+30,Bouvet Island,BVT,74
+31,Brazil,BRA,76
+32,British Indian Ocean Territory (the),IOT,86
+34,Brunei Darussalam,BRN,96
+35,Bulgaria,BGR,100
+36,Burkina Faso,BFA,854
+38,Burundi,BDI,108
+39,Cabo Verde,CPV,132
+40,Cambodia,KHM,116
+41,Cameroon,CMR,120
+42,Canada,CAN,124
+45,Cayman Islands (the),CYM,136
+46,Central African Republic (the),CAF,140
+47,Chad,TCD,148
+48,Chile,CHL,152
+49,China,CHN,156
+51,Christmas Island,CXR,162
+52,Cocos (Keeling) Islands (the),CCK,166
+53,Colombia,COL,170
+54,Comoros (the),COM,174
+55,Congo (the Democratic Republic of the),COD,180
+56,Congo (the),COG,178
+57,Cook Islands (the),COK,184
+58,Costa Rica,CRI,188
+59,Côte d'Ivoire,CIV,384
+60,Croatia,HRV,191
+61,Cuba,CUB,192
+62,Curaçao,CUW,531
+63,Cyprus,CYP,196
+64,Czechia,CZE,203
+67,Denmark,DNK,208
+68,Djibouti,DJI,262
+69,Dominica,DMA,212
+70,Dominican Republic (the),DOM,214
+72,Ecuador,ECU,218
+73,Egypt,EGY,818
+74,El Salvador,SLV,222
+75,Equatorial Guinea,GNQ,226
+76,Eritrea,ERI,232
+77,Estonia,EST,233
+78,Eswatini,SWZ,748
+79,Ethiopia,ETH,231
+80,Falkland Islands (the),FLK,238
+81,Faroe Islands (the),FRO,234
+82,Fiji,FJI,242
+83,Finland,FIN,246
+84,France,FRA,250
+85,French Guiana,GUF,254
+86,French Polynesia,PYF,258
+87,French Southern Territories (the),ATF,260
+88,Gabon,GAB,266
+89,Gambia (the),GMB,270
+90,Georgia,GEO,268
+91,Germany,DEU,276
+92,Ghana,GHA,288
+93,Gibraltar,GIB,292
+95,Greece,GRC,300
+96,Greenland,GRL,304
+97,Grenada,GRD,308
+98,Guadeloupe,GLP,312
+99,Guam,GUM,316
+100,Guatemala,GTM,320
+101,Guernsey,GGY,831
+102,Guinea,GIN,324
+103,Guinea-Bissau,GNB,624
+104,Guyana,GUY,328
+105,Haiti,HTI,332
+106,Heard Island and McDonald Islands,HMD,334
+107,Holy See (the),VAT,336
+108,Honduras,HND,340
+109,Hong Kong,HKG,344
+110,Hungary,HUN,348
+111,Iceland,ISL,352
+112,India,IND,356
+113,Indonesia,IDN,360
+114,Iran (Islamic Republic of),IRN,364
+115,Iraq,IRQ,368
+116,Ireland,IRL,372
+117,Isle of Man,IMN,833
+118,Israel,ISR,376
+119,Italy,ITA,380
+121,Jamaica,JAM,388
+123,Japan,JPN,392
+124,Jersey,JEY,832
+125,Jordan,JOR,400
+126,Kazakhstan,KAZ,398
+127,Kenya,KEN,404
+128,Kiribati,KIR,296
+129,Korea (the Democratic People's Republic of),PRK,408
+130,Korea (the Republic of),KOR,410
+131,Kuwait,KWT,414
+132,Kyrgyzstan,KGZ,417
+133,Lao People's Democratic Republic (the),LAO,418
+134,Latvia,LVA,428
+135,Lebanon,LBN,422
+136,Lesotho,LSO,426
+137,Liberia,LBR,430
+138,Libya,LBY,434
+139,Liechtenstein,LIE,438
+140,Lithuania,LTU,440
+141,Luxembourg,LUX,442
+142,Macao,MAC,446
+143,Madagascar,MDG,450
+144,Malawi,MWI,454
+145,Malaysia,MYS,458
+146,Maldives,MDV,462
+147,Mali,MLI,466
+148,Malta,MLT,470
+149,Marshall Islands (the),MHL,584
+150,Martinique,MTQ,474
+151,Mauritania,MRT,478
+152,Mauritius,MUS,480
+153,Mayotte,MYT,175
+154,Mexico,MEX,484
+155,Micronesia (Federated States of),FSM,583
+156,Moldova (the Republic of),MDA,498
+157,Monaco,MCO,492
+158,Mongolia,MNG,496
+159,Montenegro,MNE,499
+160,Montserrat,MSR,500
+161,Morocco,MAR,504
+162,Mozambique,MOZ,508
+163,Myanmar,MMR,104
+164,Namibia,NAM,516
+165,Nauru,NRU,520
+166,Nepal,NPL,524
+167,Netherlands (Kingdom of the),NLD,528
+168,New Caledonia,NCL,540
+169,New Zealand,NZL,554
+170,Nicaragua,NIC,558
+171,Niger (the),NER,562
+172,Nigeria,NGA,566
+173,Niue,NIU,570
+174,Norfolk Island,NFK,574
+176,North Macedonia,MKD,807
+177,Northern Mariana Islands (the),MNP,580
+178,Norway,NOR,578
+179,Oman,OMN,512
+180,Pakistan,PAK,586
+181,Palau,PLW,585
+182,"Palestine, State of",PSE,275
+183,Panama,PAN,591
+184,Papua New Guinea,PNG,598
+185,Paraguay,PRY,600
+187,Peru,PER,604
+188,Philippines (the),PHL,608
+189,Pitcairn,PCN,612
+190,Poland,POL,616
+191,Portugal,PRT,620
+192,Puerto Rico,PRI,630
+193,Qatar,QAT,634
+197,Réunion,REU,638
+198,Romania,ROU,642
+199,Russian Federation (the),RUS,643
+200,Rwanda,RWA,646
+203,Saint Barthélemy,BLM,652
+204,Saint Helena  Ascension Island  Tristan da Cunha,SHN,654
+205,Saint Kitts and Nevis,KNA,659
+206,Saint Lucia,LCA,662
+207,Saint Martin (French part),MAF,663
+208,Saint Pierre and Miquelon,SPM,666
+209,Saint Vincent and the Grenadines,VCT,670
+210,Samoa,WSM,882
+211,San Marino,SMR,674
+212,Sao Tome and Principe,STP,678
+213,Saudi Arabia,SAU,682
+214,Senegal,SEN,686
+215,Serbia,SRB,688
+216,Seychelles,SYC,690
+217,Sierra Leone,SLE,694
+218,Singapore,SGP,702
+220,Sint Maarten (Dutch part),SXM,534
+221,Slovakia,SVK,703
+222,Slovenia,SVN,705
+223,Solomon Islands,SLB,90
+224,Somalia,SOM,706
+225,South Africa,ZAF,710
+226,South Georgia and the South Sandwich Islands,SGS,239
+228,South Sudan,SSD,728
+229,Spain,ESP,724
+230,Sri Lanka,LKA,144
+231,Sudan (the),SDN,729
+232,Suriname,SUR,740
+233,Svalbard  Jan Mayen,SJM,744
+234,Sweden,SWE,752
+235,Switzerland,CHE,756
+236,Syrian Arab Republic (the),SYR,760
+237,Taiwan (Province of China),TWN,158
+238,Tajikistan,TJK,762
+239,"Tanzania, the United Republic of",TZA,834
+240,Thailand,THA,764
+241,Timor-Leste,TLS,626
+242,Togo,TGO,768
+243,Tokelau,TKL,772
+244,Tonga,TON,776
+245,Trinidad and Tobago,TTO,780
+246,Tunisia,TUN,788
+247,Türkiye,TUR,792
+248,Turkmenistan,TKM,795
+249,Turks and Caicos Islands (the),TCA,796
+250,Tuvalu,TUV,798
+251,Uganda,UGA,800
+252,Ukraine,UKR,804
+253,United Arab Emirates (the),ARE,784
+254,United Kingdom of Great Britain and Northern Ireland (the),GBR,826
+255,United States Minor Outlying Islands (the),UMI,581
+256,United States of America (the),USA,840
+258,Uruguay,URY,858
+259,Uzbekistan,UZB,860
+260,Vanuatu,VUT,548
+262,Venezuela (Bolivarian Republic of),VEN,862
+263,Viet Nam,VNM,704
+264,Virgin Islands (British),VGB,92
+265,Virgin Islands (U.S.),VIR,850
+266,Wallis and Futuna,WLF,876
+267,Western Sahara,ESH,732
+268,Yemen,YEM,887
+269,Zambia,ZMB,894
+270,Zimbabwe,ZWE,716
