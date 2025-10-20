@@ -3,5 +3,4 @@ logs
 *.yaml
 plugins
 .venv
-Scripts
-UNDataDBLoad.py
+Scripts/
