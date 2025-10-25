@@ -37,7 +37,7 @@ The World Data Bank offers a comprehensive and integrated set of curated develop
 
 ### Extra data used
 
-- [United Nations wolrd marriage data](https://www.un.org/development/desa/pd/data/world-marriage-data)
+- [United Nations world marriage data](https://www.un.org/development/desa/pd/data/world-marriage-data)
 
 ### Tech stack
 
