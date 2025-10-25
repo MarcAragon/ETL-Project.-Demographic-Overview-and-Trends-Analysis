@@ -4,3 +4,5 @@ logs
 plugins
 .venv
 Scripts/
+**/__pycache__
+*.pbix
