@@ -72,8 +72,7 @@ The World Data Bank offers a comprehensive and integrated set of curated develop
 ![Link](https://imgur.com/cYJjZ4s.jpeg)
 
 
-### Results (Change)
-
+### Results 
 ![Link](https://imgur.com/WJqn8r8.jpeg)
 ![Link](https://imgur.com/wPCdR5D.jpeg)
 ![Link](https://imgur.com/g0562Za.jpeg)
