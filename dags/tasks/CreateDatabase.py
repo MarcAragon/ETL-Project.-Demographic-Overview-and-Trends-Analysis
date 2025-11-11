@@ -62,6 +62,25 @@ def Create_Tables():
         
         print(f'Tabla {TableName} creada')
 
+    TableName = 'divorceddata'
+
+    if not Inspector.has_table(TableName):
+
+        class DivorcedData(Base):
+            __tablename__ = TableName
+            
+            survey_id = Column(Integer, primary_key=True)
+            country = Column(String(400), nullable = False)
+            iso_code = Column(Integer, ForeignKey('countries.iso_numeric_code'), nullable = False)
+            year_end = Column(Integer, nullable = False)
+            sex = Column(String(100))
+            age_group = Column(String(10))
+            data_value = Column(Float, nullable = False)
+
+            DivorcedCodes = relationship('Countries')
+
+        print(f'Tabla {TableName} creada')
+
     TableName = 'indicatorsdata'
 
     if not Inspector.has_table(TableName):

@@ -2,14 +2,16 @@ from airflow.decorators import task
 import pandas as pd
 
 @task 
-def Transform(Data):
+def Transform(Dfs, InflationAPI, ContraceptiveAPI, ATFMAPI):
    
-    IndicatorsDf = pd.read_json(Data['CsvIndicators'])
-    DfATFMApi = pd.read_json(Data['ATFMIndicator'])
-    DfInflationApi = pd.read_json(Data['InflationIndicator'])
-    DfContraceptiveApi = pd.read_json(Data['ContraceptiveIndicator'])
-    MarriedDf = pd.read_json(Data['MarriedIndicator'])
-    SingleDf = pd.read_json(Data['SingleIndicator'])
+    IndicatorsDf = pd.read_json(Dfs['CsvIndicators'])
+    DfATFMApi = pd.read_json(ATFMAPI['ATFMIndicator'])
+    DfInflationApi = pd.read_json(InflationAPI['InflationIndicator'])
+    DfContraceptiveApi = pd.read_json(ContraceptiveAPI['ContraceptiveIndicator'])
+    MarriedDf = pd.read_json(Dfs['MarriedIndicator'])
+    SingleDf = pd.read_json(Dfs['SingleIndicator'])
+    DivorcedDf = pd.read_json(Dfs['DivorcedIndictor'])
+    
 
     #Separating indicators by sex
     DfATFMApiW = DfATFMApi.loc[DfATFMApi['SEX'] == 'F']
@@ -51,6 +53,8 @@ def Transform(Data):
     MarriedDf = MarriedDf.loc[~MarriedDf['Country or area'].isna()]
     SingleDf['Country or area'] = SingleDf['ISO code'].map(ISONumberToName).values
     SingleDf = SingleDf.loc[~SingleDf['Country or area'].isna()]
+    DivorcedDf['Country or area'] = DivorcedDf['ISO code'].map(ISONumberToName).values
+    DivorcedDf = DivorcedDf.loc[~DivorcedDf['Country or area'].isna()]
 
     IndicatorsDf['Country Name'] = IndicatorsDf['Country Code'].map(ISOCode3ToName).values
     IndicatorsDf['Country Code'] = IndicatorsDf['Country Code'].map(ISOCode3ToNumber).values
@@ -69,6 +73,7 @@ def Transform(Data):
     IndicatorsDf = IndicatorsDf[IndicatorsDf['Country Code'].isin(LatamISO)]
     MarriedDf = MarriedDf[MarriedDf['ISO code'].isin(LatamISO)]
     SingleDf = SingleDf[SingleDf['ISO code'].isin(LatamISO)]
+    DivorcedDf = DivorcedDf[DivorcedDf['ISO code'].isin(LatamISO)]
 
     #Cleaning
     IndicatorsDf = IndicatorsDf.drop(['Indicator Name', 'Indicator Code'], axis=1)
@@ -81,6 +86,7 @@ def Transform(Data):
     return {
         'LatamIndicators': IndicatorsDf.to_json(),
         'LatamMarriedIndicator': MarriedDf.to_json(),
-        'LatamSingleIndicator': SingleDf.to_json()
+        'LatamSingleIndicator': SingleDf.to_json(),
+        'LatamDivorcedIndicator': DivorcedDf.to_json()
     }
 

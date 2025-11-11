@@ -1,12 +1,15 @@
 from airflow.decorators import dag
 from datetime import datetime
-from tasks.Extract import Extract
+from tasks.ExtractFiles import ExtractFiles
 from tasks.Transform import Transform
 from tasks.CreateDatabase import Create_Tables
 from tasks.Load import DB_Data_Upload
+from tasks.ExtracContraceptiveAPI import ExtractContraceptiveAPI
+from tasks.ExtractATFMAPI import ExtractATFMAPI
+from tasks.ExtractInflationAPI import ExtractInflationAPI
 
 @dag(
-    dag_id='Proyecto2Prueba',
+    dag_id='Proyecto2',
     start_date=datetime(2025, 3, 20),
     schedule="@monthly",
     catchup=True,
@@ -15,8 +18,11 @@ from tasks.Load import DB_Data_Upload
 
 def Pipeline_Prueba():
 
-    Dfs = Extract()
-    DfsClean = Transform(Dfs)
+    Dfs = ExtractFiles()
+    InflationAPI = ExtractInflationAPI()
+    ContraceptiveAPI = ExtractContraceptiveAPI()
+    ATFMAPI = ExtractATFMAPI()
+    DfsClean = Transform(Dfs, InflationAPI, ContraceptiveAPI, ATFMAPI)
     Create_Tables()
     DB_Data_Upload(DfsClean)
 

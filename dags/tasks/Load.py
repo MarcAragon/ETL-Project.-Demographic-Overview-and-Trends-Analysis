@@ -18,11 +18,13 @@ def DB_Data_Upload(Data):
     CountriesDf = pd.read_csv('/opt/airflow/StagingData/CountriesISOData.csv')
     IndicatorsDf = pd.read_json(Data['LatamIndicators'])
     MarriedDf = pd.read_json(Data['LatamMarriedIndicator'])
-    SingleDf = pd.read_json(Data['LatamSingleIndicator']) 
+    SingleDf = pd.read_json(Data['LatamSingleIndicator'])
+    DivorcedDf = pd.read_json(Data['LatamDivorcedIndicator'])
 
     CountriesDf.drop('Unnamed: 0', axis = 1, inplace=True)
     MarriedDf.insert(0, 'id', range(len(MarriedDf)))
     SingleDf.insert(0, 'id', range(len(SingleDf)))
+    DivorcedDf.insert(0, 'id', range(len(DivorcedDf)))
     IndicatorsDf.insert(0, 'id', range(len(IndicatorsDf)))
     
     def Insertar(Row, Table):
@@ -67,6 +69,9 @@ def DB_Data_Upload(Data):
 
     for _, Row in SingleDf.iterrows():
         Insertar(Row, 'singledata')
+    
+    for _, Row in DivorcedDf.iterrows():
+        Insertar(Row, 'divorceddata')
 
     Cursor.close()
     Conn.close()
