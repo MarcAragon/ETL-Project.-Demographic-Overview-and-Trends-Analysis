@@ -58,8 +58,8 @@ def DB_Data_Upload(Data):
         Conn.commit()
 
 
-    for _, Row in CountriesDf.iterrows(): #Esta solo se tiene que correr 1 vez
-        Insertar(Row, 'countries')
+    #for _, Row in CountriesDf.iterrows(): #Esta solo se tiene que correr 1 vez
+        #Insertar(Row, 'countries')
 
     for _, Row in IndicatorsDf.iterrows():
         Insertar(Row, 'indicatorsdata')

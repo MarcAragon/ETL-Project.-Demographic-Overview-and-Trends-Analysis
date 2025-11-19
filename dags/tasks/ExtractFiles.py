@@ -1,7 +1,6 @@
 from airflow.decorators import task
 import pandas as pd
 import os 
-import requests
 from sqlalchemy import create_engine
 
 @task

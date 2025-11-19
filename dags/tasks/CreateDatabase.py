@@ -112,6 +112,20 @@ def Create_Tables():
             IndicatorCodes = relationship('Countries')
         
         print(f'Tabla {TableName} creada')
+
+
+    TableName = 'infoapi'
+
+    if not Inspector.has_table(TableName):
+
+        class APIInfo(Base):
+            __tablename__ = TableName
+            
+            indicator = country_name = Column(String(400), nullable = False) 
+            data_value = Column(Float)
+            id = Column(Integer, primary_key=True)
+
+        print(f'Tabla {TableName} creada')
     
     Base.metadata.create_all(Engine)
 
