@@ -43,7 +43,7 @@ The World Data Bank offers a comprehensive and integrated set of curated develop
 
 **Code Flow Management**: Apache Airflow.
 
-**Data Proccessing & Loading:** Python.
+**Data Proccessing & Loading:** Python, Great Expectations, Apache Kafka.
 
 **DB:** PostreSQL. 
 
@@ -51,7 +51,7 @@ The World Data Bank offers a comprehensive and integrated set of curated develop
 
 ### ETL pipeline diagram 
 
-![Link](https://imgur.com/RNMmaGj.jpeg)
+![Link](https://imgur.com/cC9m1tw.jpeg)
 
 ### EDA
 
